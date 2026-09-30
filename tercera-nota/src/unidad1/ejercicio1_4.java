@@ -1,18 +1,15 @@
 package unidad1;
 
 public class ejercicio1_4 {
+    final static int SEMANASMES = 4;
     public static void main(String[] args) {
-        final int SEMANAS_POR_MES = 4;
+         int cantidad = 1000;
+        int cantidadRetiro = 200;
+        int cantidadFinal = 1000 - (SEMANASMES*cantidadRetiro);
 
-        double saldoInicial = 1000;
-        double retiroSemanal = 200;
-
-        double totalRetirado = retiroSemanal * SEMANAS_POR_MES;
-        double saldoFinal = saldoInicial - totalRetirado;
-
-        System.out.printf("Saldo inicial: $%.2f%n", saldoInicial);
-        System.out.printf("Total retirado en el mes: $%.2f%n", totalRetirado);
-        System.out.printf("Saldo final: $%.2f%n", saldoFinal);
+        System.out.println("Saldo inicial: " + cantidad);
+        System.out.println("Saldo retirado por semana:" + cantidadRetiro);
+        System.out.println( "Su cantidad al terminar el mes :" + cantidadFinal);
     }
     
 }

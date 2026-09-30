@@ -1,10 +1,10 @@
 package unidad1;
 
 public class ejercicio1_3 {
+    static final double DESCUENTO_BASE = 0.15;
+    static final double DESCUENTO_ADICIONAL = 0.05;
     public static void main(String[] args) {
-        final double DESCUENTO_BASE = 0.15;
-        final double DESCUENTO_ADICIONAL = 0.05;
-
+       
         double precioCamiseta = 25;
         double precioPantalon = 30;
 
@@ -17,6 +17,7 @@ public class ejercicio1_3 {
 
         double totalConSegundaCamiseta = totalSinSegundaCamiseta + segundaCamiseta;
 
+        System.out.println("Bienvenida a la tiende de ropa de alba");
         System.out.printf("Camiseta con descuento: $%.2f%n", camisetaConDescuento);
         System.out.printf("Pantalón con descuento: $%.2f%n", pantalonConDescuento);
         System.out.printf("Total (camiseta + pantalón): $%.2f%n", totalSinSegundaCamiseta);
