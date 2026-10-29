@@ -15,6 +15,6 @@ public static void main(String[] args) {
         double altura = sc.nextDouble();
 
         System.out.println("Tu nombre es " + nombre + " con edad " + edad + " y altura " + altura);
+        sc.close();
 }
-
 }

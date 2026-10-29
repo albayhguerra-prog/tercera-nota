@@ -35,6 +35,6 @@ public class ejercicio_17 {
         }
         System.out.println("Suma de la diagonal principal: " + diagonalPrincipal);
         System.out.println("Suma de la diagonal secundaria: " + diagonalSecundaria);
-
+        sc.close();
     }
 }

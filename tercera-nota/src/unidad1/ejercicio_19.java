@@ -25,5 +25,6 @@ public class ejercicio_19 {
         } else {
             System.out.println("La palabra no es palíndroma.");
         }
+        sc.close();
     }
 }

@@ -40,6 +40,7 @@ public class ejercicio_12 {
                 System.out.println("Opción no válida");
                 break;
         }
+        sc.close();
     }
     
 }

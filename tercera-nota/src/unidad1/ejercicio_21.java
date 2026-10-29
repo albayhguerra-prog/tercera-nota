@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class ejercicio_21 {
     public static void main(String[] args) {
-        //conversor a binario leyendo el numero desde el teclado
-
+      
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingrese un número entero: ");
@@ -34,7 +33,7 @@ public class ejercicio_21 {
         }
 
         System.out.println();
-       
+       sc.close();
 
     }
     

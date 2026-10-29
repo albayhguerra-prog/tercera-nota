@@ -18,6 +18,8 @@ public class ejercicio1_9 {
         System.out.println("primer número > segundo número || primer número < tercer número: " + (numero1 > numero2 || numero1 < numero3) );
         System.out.println("!primer número > segundo número: " + !(numero1>numero2) );
         System.out.println("!primer número < tercer número: " + !(numero1<numero3) );
+
+        sc.close();
     }
     
 }

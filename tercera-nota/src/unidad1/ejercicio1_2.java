@@ -23,9 +23,7 @@ public class ejercicio1_2 {
         System.out.println("Multiplicación:" + multiplicacion);
         System.out.println("División:" + division);
         System.out.println("Modulo:" + mod);
-
-
-
+        sc.close();
         
     }
 

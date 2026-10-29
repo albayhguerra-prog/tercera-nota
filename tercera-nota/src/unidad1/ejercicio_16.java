@@ -17,6 +17,8 @@ public class ejercicio_16 {
 
         double promedio = (double) suma / 5;
         System.out.println("El promedio de los números es: " + promedio);
+
+        sc.close();
     }
     
 }

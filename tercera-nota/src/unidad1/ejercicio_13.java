@@ -18,6 +18,8 @@ public class ejercicio_13 {
             i--;
         }
         System.out.println("El factorial de " + numero + " es " + resultado);
+    
+        sc.close();
     }
     
 }

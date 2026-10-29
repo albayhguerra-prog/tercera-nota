@@ -11,8 +11,8 @@ public class ejercicio02_1 {
     int totalGastos = 0;
     int mayoresGastos = 0;
 
-    for (int i = 0; i <= 5; i++) {
-        System.out.println("Ingrese el dinero a gastar "+ i + ": ");
+    for (int i = 0; i < 5; i++) {
+        System.out.println("Ingrese el dinero a gastar "+ (i + 1) + ": ");
         double gasto = sc.nextDouble();
         totalGastos += gasto;
         if (gasto > 50000) {

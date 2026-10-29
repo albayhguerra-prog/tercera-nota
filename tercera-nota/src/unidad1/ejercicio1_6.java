@@ -17,5 +17,6 @@ public class ejercicio1_6 {
 
         double media = (numero1 + numero2 + numero3)/NUMERO_DE_NUMEROS;
         System.out.printf("La media de los tres numeros es: %.2f%n", media);
+        sc.close();
     }
 }

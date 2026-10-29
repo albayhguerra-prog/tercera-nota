@@ -1,7 +1,6 @@
 package unidad2;
 
 import java.util.Scanner;
-
 public class ejercicio02_2 {
     public static void main(String[] args) {
 
@@ -10,12 +9,12 @@ public class ejercicio02_2 {
         String clave = "clavesecreta123";
         boolean accesoConcedido = false;
 
-        for (int i = 0; i <= 3; i++) {
-            System.out.println("Intento " + i + "Ingrese la contraseña");
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Intento " + (i + 1) + " Ingrese la contraseña");
             String ingreso = sc.nextLine();
 
             if (ingreso.equals(clave)) {
-                System.out.println("Contraseña correcta,acceso concedido");
+                System.out.println("Contraseña correcta, acceso concedido");
                 accesoConcedido = true;
                 break;
             } else {

@@ -23,5 +23,7 @@ public class ejercicio1_10 {
         else {
             System.out.println("El tercer número es el mayor: " + numero3);
         }
+
+        sc.close();
     }    
 }
