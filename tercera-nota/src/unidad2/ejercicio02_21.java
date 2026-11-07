@@ -36,5 +36,6 @@ public class ejercicio02_21 {
         System.out.println("La cantidad de pagos de los vehículos que son mayor que $20000: " +mayor20000);
         System.out.println("El total pagado es: " + total);
 
+        sc.close();
     }
 }
